@@ -1,27 +1,18 @@
-import Navbar from "./Pages/Home/Navbar";  
-import Hero from "./Pages/Home/Hero"; 
-import Trending from "Pages/Home/Trending"; 
-import Services from "./Pages/Home/Services"; 
-import Footer from "./Pages/Home/Footer"; 
+import {BrowserRouter, Routes, Route} from "react-router-dom"; 
+import Home from "./pages/Home"; 
+import Login from "./pages/Login"; 
 
 function App () {
+  return (
 
-  return ( 
-  <div
-  style = {{
-    margin: "0px",
-    padding: "0px", 
-    backgroundColor: "black",
-    minHeight: "100vh",
-  }} 
->
-    <Navbar /> 
-    <Hero/> 
-    <Trending/>
-    <Services/> 
-    <Footer/>
-  
-  </div>
+    <BrowserRouter> 
+    <Routes>
+    <Route path = "/" element = {<Home /> } />  
+    <Route path = "/login" element = {<Login /> } />  
+    </Routes>
+    </BrowserRouter>
+
+
   );
 }
 

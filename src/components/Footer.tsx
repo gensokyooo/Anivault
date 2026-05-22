@@ -1,4 +1,3 @@
-import "./Footer.css";
 
 function Footer () {
     return ( 
@@ -69,7 +68,7 @@ style = {{
     gap: "20px",
 
 }}
-> <img src = "./github.webp" 
+> <img src = "src/homeimages/github.webp" 
 style = {{ width: "30px", height: "30px", }}
 /> 
 <h3

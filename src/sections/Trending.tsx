@@ -1,14 +1,10 @@
-import AnimeCard from "./AnimeCard";
-import AnimeHero from "./AnimeHero"; 
-
+import AnimeCard from "../components/AnimeCard";
+import AnimeHero from "../components/AnimeHero"; 
 
 function Trending () {
 
 return (
-
 <>
-
-
 <section
 
 
@@ -26,25 +22,25 @@ style = {{
 
     
 <AnimeCard 
-    image= "src/Anime Card Images/image1.jpg"
+    image= "src/homeimages/image1.jpg"
     title= "One outs"
     description = "Great gambling and baseball anime"
 /> 
 
 <AnimeCard
-image = "src/Anime Card Images/image2.jpg"
+image = "src/homeimages/image2.jpg"
 title = "Pale Cocoon"
 description = "Good anime i liked nice "
 />
 
 <AnimeCard
-image = "src/Anime Card Images/image3.jpg"
+image = "src/homeimages/image3.jpg"
 title = "Sakugan"
 description = "Gagumba is really the best but not always"
 /> 
 
 <AnimeCard
-image = "src/Anime Card Images/image4.jpg"
+image = "src/homeimages/image4.jpg"
 title = "Eighty Six"
 description = "One of the best animes i've ever watched"
 />
@@ -65,7 +61,7 @@ style = {{
 >
     <AnimeHero
    
-    image = "src/Anime Card Images/Akihabara.jpg"
+    image = "src/homeimages/Akihabara.jpg"
     title = "Watch your collections grow."
     description = "All the animes you've ever watched won't be lost anymore, ever."
     button = "Register Account"

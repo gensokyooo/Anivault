@@ -1,5 +1,4 @@
-import ServiceProp from "../../components/ServiceProp"; 
-
+import ServiceProp from "../components/ServiceProp"; 
 
 function Services () {
 
@@ -25,7 +24,7 @@ description = "Our platform provides cross-network sharing
 technologies accelataring the orchestration layer behind 
 the new frontier of anime watching turning dreams into 
 realities one step at a time. Providing our customers with amazing day-to-day experiences in their anime watching journey. "
-image = "src/Anime Card Images/image4.jpg"
+image = "src/homeimages/image4.jpg"
 buttonTitle = "JOIN ANIVAULT"
 
 />
@@ -39,7 +38,7 @@ style = {{
 <ServiceProp
 title = {<> A <i> dream </i> for every otaku. </>}
 description = "The rare chance to have a platform where everything regarding your anime things is stored. This is a once in a lifetime opportunity. This service is extremely luxurious. All of our clients rely on us for the best possible service"
-image = "src/Anime Card Images/image2.jpg"
+image = "src/homeimages/image2.jpg"
 reverse = {true}
 buttonTitle = "learn more"
 /> 
@@ -54,7 +53,7 @@ style = {{
 <ServiceProp
 title = "The final boss of anime tracking."
 description = "Everyone has been talking about a future where every and each of your tracked anime isn't lost due to some database burning, server ddos or some other hacking stuff. This is your white castle. The only one in the world!"
-image = "src/Anime Card Images/image1.jpg"
+image = "src/homeimages/image1.jpg"
 reverse = {false}
 buttonTitle = "learn more"
 /> 
