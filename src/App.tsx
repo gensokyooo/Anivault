@@ -1,8 +1,8 @@
-import Navbar from "./Navbar";  
-import Hero from "./Hero"; 
-import Trending from "./Trending"; 
-import Services from "./Services"; 
-import Footer from "./Footer"; 
+import Navbar from "./Pages/Home/Navbar";  
+import Hero from "./Pages/Home/Hero"; 
+import Trending from "Pages/Home/Trending"; 
+import Services from "./Pages/Home/Services"; 
+import Footer from "./Pages/Home/Footer"; 
 
 function App () {
 
@@ -18,8 +18,9 @@ function App () {
     <Navbar /> 
     <Hero/> 
     <Trending/>
-  <Services/> 
-  <Footer/>
+    <Services/> 
+    <Footer/>
+  
   </div>
   );
 }
