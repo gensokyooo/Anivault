@@ -1,75 +1,46 @@
-# React + TypeScript + Vite
+# Anivault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Anivault** is an anime tracking platform currently in development.
 
-Currently, two official plugins are available:
+I'm building this project mainly to improve my skills with **React**, **TypeScript**, **HTML**, and **CSS**, while working on something I actually care about: anime, clean UI, and useful personal software.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Goal
 
-## React Compiler
+The goal of Anivault is to become a simple and clean platform where users can track anime they are watching, plan what to watch next, and organize their anime list in a more personal way.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Planned Features
 
-Note: This will impact Vite dev & build performances.
+- Track anime currently watching
+- Add anime to a personal watchlist
+- Mark anime as completed
+- Display anime cards with title, image, and details
+- Search and filter anime
+- Clean responsive UI
+- Anime detail pages
+- Rating or favorite system
+- Possible desktop app version in the future
 
-## Expanding the ESLint configuration
+## Why I'm Building This
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+I'm building Anivault as a learning project to practice real frontend development instead of only studying theory.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+This project helps me improve by working with:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- React components
+- TypeScript props and types
+- CSS layouts
+- Responsive design
+- UI structure
+- Project organization
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React
+- TypeScript
+- HTML
+- CSS
+- Vite
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Status
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Work in progress.
