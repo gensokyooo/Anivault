@@ -1,3 +1,5 @@
+import LoginForm from "../components/LoginForm"; 
+
 function Login () {
 
     return (
@@ -19,14 +21,10 @@ function Login () {
         }}
         
             >
-                <div
-                style = {{
-                    height: "100%",
-                    width: "60%",
-                    border: "2px solid white", 
-                }} > 
-                    <h1> Get Started Now</h1>
-                </div>
+               <LoginForm 
+               label = "Email"
+               input = "Enter your email"
+               /> 
 
                         
         </div>
