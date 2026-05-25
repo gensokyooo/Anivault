@@ -22,8 +22,10 @@ function Login () {
         
             >
                <LoginForm 
-               label = "Email"
-               input = "Enter your email"
+               label1 = "Email"
+               input1 = "Enter your email"
+               type1 = "password" 
+
                /> 
 
                         

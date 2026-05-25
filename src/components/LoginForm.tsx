@@ -1,9 +1,6 @@
- type LoginButtons = {
-    label: string; 
-    input: string; 
- }; 
- 
- function LoginForm ({label, input}: LoginButtons) {
+import LoginButtons from "../components/LoginButtons"; 
+
+ function LoginForm () {
     return ( 
         <div
                 style = {{
@@ -26,9 +23,11 @@
                         alignItems: "center",
                     }} > 
                     <h1> Get Started Now</h1>
-                    <label> {label} </label>
-                        <input type = "email" placeholder = {input} 
-                        style = {{ width: "40%", fontSize: "18px",}}/> 
+                    <LoginButtons 
+                        label1 = "Email"
+                        type1 = "email"
+                        input1 = "Enter your email"
+                    /> 
                     </div>
                 </div>
     );
